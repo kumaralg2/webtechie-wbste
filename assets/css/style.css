@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:"Bebas Neue"!important;
+	src:url(../font/BebasNeue.otf);
+	}
+.bebas-font {
+	font-family:"Bebas Neue"!important;
+	font-size:30px!important;
+	letter-spacing:0.04em;
+	}
+.wt-logo {
+	font-family:"Bebas Neue"!important;
+	font-size:50px;	
+	}
+.wt-logo small {
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	display:block;
+	text-align:right;
+	font-style:italic;
+	}
+.wt-color {
+	color:#06245B;
+	}
+.wt-color .green {
+	color:#86bc42;
+	display:inline-block;
+	}
+.greenicon {
+	color:#82B614!important;
+	font-weight:700;
+	}
+.learn-title {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-style:italic;
+	margin-top:40px;
+	color:#969696;
+	}
+.drophead {
+	display:inline!important;
+	}
+.white {
+	color:#fff!important;
+	}
+.course-content {
+	display:block;
+	float:left;
+	width:100%;
+	}
+details {
+	background-color:#F8FAFF;
+	margin-bottom:1px;	
+	}
+details summary::-webkit-details-marker {
+    background: url(../images/toggle-expand.png) center no-repeat;
+    color: transparent!important;
+	font-size:30px;
+	}
+details[open] summary::-webkit-details-marker {
+    background: url(../images/toggle-collapse.png) center no-repeat;
+    color: transparent!important;
+	font-size:30px;
+}
+summary {
+	background-color:#eaedf5;	
+	font-size:19px;
+	line-height:30px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	cursor:pointer;
+	border-bottom:1px solid #E0E0E0;	
+	}
+summary:focus {
+	background-color:#86bc42;
+	color:#fff;
+	}
+.devHeight {
+	height:1150px;
+	}
+summary:visited {
+	color:#86bc42;
+	}
+summary span {
+	display:inline-block;
+	text-align:right;
+	font-size:15px;
+	line-height:25px;
+	}
+details p {
+	padding:10px 15px;
+	font-size:18px;
+	}
+details ul li {
+	padding:0 10px!important;
+	margin-bottom:0!important;
+	margin-top:5px!important;
+	font-size:15px;
+	}
+details ul li:first-child{
+	margin-top:10px!important;
+	}
+details ul li:last-child{
+	padding-bottom:20px!important;	
+	} 
+details ul li p {
+	font-size:13px;
+	}
+details ul li i {
+	padding:0 10px!important;
+	}
+.nospace {
+	margin:0!important;		
+	}
+.topMar20 {
+	margin-top:20px!important;
+	}
+.transparent {
+	background-color:#000;
+	}
+.course-bg {
+	background-image:url(../images/background-count-number.png);
+	}
+.overlay-color {
+	background-color:rgb(47, 48, 52);
+	}
+.batch-btn a {
+	float:right;
+	line-height:40px;
+	background-color:#F90;
+	margin-top:5px;
+	margin-right:5px;
+	}
+.batch-btn a:hover {
+	color:##57A22B;
+	}
+.jubobox {
+	background-color:#EFF8E7;
+	border:1px solid #dedede;
+	}
+.listbg {
+	background-color:#06245B;
+	}
+	
+@media screen and (min-width:320px) and (max-width:480px) {
+.slider-banner {
+	
+	}
+.batch-btn a {
+	float:left!important;
+	margin:0!important;
+	}
+.slickModal {
+	/*display:none!important;*/
+	}
+#popup-1 {
+	
+	}
+#popup-1 img {
+	width:100%!important;
+	}
+	}
+@media screen and (min-width:320px) and (max-width:768px) {
+.mobilehead {
+	width:100%;
+	max-width:768px;
+	margin:0 auto;
+	}
+.batch-btn a {
+	float:left!important;
+	margin:0!important;
+	}
+.pull-left {
+	float:none!important;
+	}
+.pull-right {
+	float:none!important;
+	}
+.wt-logo{
+	text-align:center;	
+	}
+.wt-logo small {
+	text-align:center;	
+	}
+.learn-title {
+	text-align:center;
+	}
+.topbar-left {
+	text-align:center;
+	}
+.topbar-right {
+	text-align:center;
+	}
+}
